@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>AI and the Environment</h1>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <h2>Contact Us</h2>
+
+    <p>
+      This is a practice form. The information entered here
+      will not be saved or sent.
+    </p>
+
+    <form action="contact.html" method="get">
+
+      <fieldset>
+        <legend>Your Details</legend>
+
+        <p>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </p>
+
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </p>
+
+        <p>
+          <label for="date">Preferred contact date:</label>
+          <input type="date" id="date" name="date" required>
+        </p>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Your Message</legend>
+
+        <p>
+          <label for="topic">Topic:</label>
+          <select id="topic" name="topic">
+            <option value="energy">Energy use</option>
+            <option value="water">Water use</option>
+            <option value="waste">Electronic waste</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="message">Message:</label>
+          <br>
+          <textarea id="message" name="message"
+                    rows="5" cols="30" required></textarea>
+        </p>
+
+        <button type="submit">Submit</button>
+
+      </fieldset>
+
+    </form>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Ahmed Daghfous</p>
+  </footer>
+
+</body>
+</html>
